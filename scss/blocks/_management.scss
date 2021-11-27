@@ -1,0 +1,53 @@
+.management {
+    background-color: #181f2b;
+
+    &__container {
+        text-align: center;
+    }
+
+    &__box {
+        width: 350px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &__img {
+        width: 80px;
+        height: 80px;
+    }
+
+    &__title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    &__text {
+        font-family: 'Open Sans';
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .management {
+        &__boxes {
+            display: flex;
+        }
+    
+        &__img {
+            width: auto;
+            height: auto;
+        }
+    
+        &__box {
+            width: 370px;
+            height: 300px;
+        }
+    
+        &__title {
+            font-size: 20px;
+            line-height: 23px;
+        }
+    }
+}
