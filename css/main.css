@@ -1,3 +1,30 @@
+/* raleway-regular - latin */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/raleway-v22-latin-regular.woff2") format("woff2"), url("../fonts/raleway-v22-latin-regular.woff") format("woff");
+}
+
+/* raleway-700 - latin */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/raleway-v22-latin-700.woff2") format("woff2"), url("../fonts/raleway-v22-latin-700.woff") format("woff");
+}
+
+/* open-sans-regular - latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/open-sans-v27-latin-regular.woff2") format("woff2"), url("../fonts/open-sans-v27-latin-regular.woff") format("woff");
+}
+
 html {
   height: 100%;
   -webkit-box-sizing: border-box;
@@ -23,5 +50,198 @@ body {
           flex-direction: column;
   font-size: 16px;
   line-height: 1.5;
+  font-family: 'Raleway', 'Open Sans', serif;
+  background-color: #1b2330;
+  color: white;
+}
+
+.blue-btn {
+  display: block;
+  padding: 16px;
+  background-image: linear-gradient(152.13deg, #63E1D9 -150.21%, #34A0CD 170.03%);
+  -webkit-box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+          box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+  border-radius: 24px;
+  text-decoration: none;
+  color: white;
+  max-width: 240px;
+  width: 100%;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.blue-btn:hover {
+  background-image: linear-gradient(152deg, #34A0CD -150%, #63E1D9 170%);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1320px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+.site-header {
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.header__list-link {
+  margin-left: 24px;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+@media only screen and (min-width: 768px) {
+  .site-header {
+    margin-top: 72px;
+  }
+  .header__list-link {
+    margin-left: 57px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+.logo__img {
+  width: 80px;
+  height: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+  .logo__img {
+    width: auto;
+    height: auto;
+  }
+}
+
+.hero {
+  background-image: url("../img/background.png");
+  background-size: 375px;
+  background-repeat: no-repeat;
+  background-position: center top calc(50% - 85px);
+  padding-bottom: 120px;
+  position: relative;
+  z-index: 1;
+}
+
+.hero::after {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 393px;
+  background-color: #181f2b;
+}
+
+.hero__container {
+  text-align: center;
+}
+
+.hero__img {
+  margin-bottom: 33px;
+  width: 304px;
+  height: 225px;
+}
+
+.hero__title {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 15px;
+}
+
+.hero__text {
+  width: 296px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 32px;
+}
+
+.hero__btn {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero {
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 158px;
+  }
+  .hero::after {
+    display: none;
+  }
+  .hero__img {
+    margin-bottom: 36px;
+    width: auto;
+    height: auto;
+  }
+  .hero__title {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 32px;
+    line-height: 60px;
+    margin-bottom: 15px;
+    width: 700px;
+  }
+  .hero__text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 589px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .hero__btn {
+    width: 280px;
+    height: 56px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 /*# sourceMappingURL=main.css.map */
