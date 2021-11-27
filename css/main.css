@@ -295,4 +295,112 @@ body {
     line-height: 23px;
   }
 }
+
+.friends {
+  background-color: #181f2b;
+  padding-top: 160px;
+  padding-bottom: 177px;
+  text-align: center;
+}
+
+.friends__img {
+  width: 304px;
+  height: 230px;
+  margin-bottom: 48px;
+}
+
+.friends__item {
+  position: relative;
+  z-index: 1;
+}
+
+.friends__title {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.friends__text {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  line-height: 21px;
+  text-align: start;
+  margin-bottom: 16px;
+}
+
+.friends__item-link {
+  position: absolute;
+  z-index: 1;
+  left: 9%;
+  width: 132px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #62E0D9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.friends__link {
+  display: inline-block;
+  font-family: 'Open Sans';
+  font-size: 12px;
+  line-height: 14px;
+  color: #62E0D9;
+  margin-right: 7px;
+  text-decoration: none;
+}
+
+.friends__icon {
+  display: block;
+}
+
+@media only screen and (min-width: 768px) {
+  .friends__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: left;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .friends__img {
+    display: block;
+    width: 590px;
+    height: 530px;
+    margin-bottom: 48px;
+    margin-right: 57px;
+  }
+  .friends__title {
+    width: 510px;
+    height: 100px;
+    padding: 10px;
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .friends__text {
+    width: 520px;
+    height: 48px;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+  .friends__item-link {
+    left: 2%;
+    width: 170px;
+  }
+  .friends__link {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
