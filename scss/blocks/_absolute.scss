@@ -7,6 +7,7 @@
         background-color: #1B2330;
         padding: 40px 28px;
         text-align: center;
+        margin-bottom: 76px;
     }
 
     &__title {
@@ -49,12 +50,13 @@
     @media only screen and (min-width: 768px) {
         .absolute {
             background-image: linear-gradient(to bottom, #181f2b 0, #181f2b 195px,  #0B1524 195px);
-            text-align: none;
+            text-align: none;}
 
             &__container {
                 width: 863px;
                 height: 275px;
-                padding: 20px;
+                padding: 42px;
+                margin-bottom: 85px;
             }
         
             &__title {
@@ -63,12 +65,16 @@
             }
         
             &__text {
+                width: 673px;
+                margin-left: auto;
+                margin-right: auto;
                 font-size: 14px;
                 line-height: 21px;
             }
 
             &__form {
                 display: flex;
+                justify-content: center;
             }
         
             &__input {
@@ -85,4 +91,5 @@
                 width: 200px;
                 height: 48px;
             }  
+        }
     }

@@ -1,0 +1,136 @@
+.footer {
+    background-color: #0B1524 195px;
+
+    &__logo {
+        margin-bottom: 40px;
+        margin-left: 9px;
+    }
+
+    &__text {
+        display: flex;
+    }
+
+    &__place {
+        display: block;
+        margin-right: 27px;
+        margin-top: 6.5px;
+    }
+
+    &__paragraph {
+        font-family: 'Open Sans';
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 16px;
+    }
+
+    &__item {
+        display: flex;
+        margin-bottom: 19px;
+    }
+
+    &__icon {
+        display: block;
+        margin-right: 22px;
+        margin-top: 6.5px;
+    }
+
+    &__tel {
+        text-decoration: none;
+        color: white;
+    }
+
+    &__email {
+        text-decoration: none;
+        color: white;
+    }
+
+    &__lists {
+        list-style-type: none;
+        margin-bottom: 48px;
+    }
+
+    &__link {
+        color: white;
+        text-decoration: none;
+        font-family: OpenSans;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    
+    &__links {
+        margin-left: auto;
+        text-align: center;
+    }
+}
+     
+@media only screen and (min-width: 768px) {
+    .footer {
+        &__container {
+            padding: 60px;
+        }
+
+        &__content {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &__logo {
+            margin-bottom: 33px;
+            margin-left: 9px;
+        }
+    
+        &__text {
+            display: flex;
+        }
+    
+        &__place {
+            display: block;
+            margin-right: 27px;
+            margin-top: 6.5px;
+        }
+    
+        &__paragraph {
+            width: 340px;
+            height: 72px;
+        }
+    
+        &__item {
+            display: flex;
+            margin-bottom: 19px;
+        }
+    
+        &__icon {
+            display: block;
+            margin-right: 22px;
+            margin-top: 6.5px;
+        }
+    
+        &__tel {
+            text-decoration: none;
+            color: white;
+        }
+    
+        &__email {
+            text-decoration: none;
+            color: white;
+        }
+    
+        &__lists {
+            list-style-type: none;
+            margin-bottom: 48px;
+        }
+    
+        &__link {
+            color: white;
+            text-decoration: none;
+            font-family: OpenSans;
+            font-size: 16px;
+            line-height: 19px;
+        }
+        
+        &__links {
+            margin-left: 0;
+            text-align: none;
+        }
+    }
+}
