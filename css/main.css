@@ -485,4 +485,55 @@ body {
             align-items: center;
   }
 }
+
+.absolute {
+  background-image: linear-gradient(to bottom, #181f2b 0, #181f2b 195px, #0B1524 195px);
+}
+
+.absolute__container {
+  width: 340px;
+  height: 350px;
+  background-color: #1B2330;
+  padding: 40px 28px;
+  text-align: center;
+}
+
+.absolute__title {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.absolute__text {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 32px;
+}
+
+.absolute__input {
+  width: 280px;
+  height: 48px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+          box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+  border-radius: 24px;
+  padding: 15px;
+  margin-bottom: 24px;
+  font-family: OpenSans;
+  font-size: 10px;
+  line-height: 12px;
+  color: #C0C0C0;
+}
+
+.absolute__button {
+  width: 280px;
+  height: 48px;
+  background: linear-gradient(152.13deg, #63E1D9 -150.21%, #34A0CD 170.03%);
+  -webkit-box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+          box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+  border-radius: 24px;
+  padding: 15px;
+  color: white;
+}
 /*# sourceMappingURL=main.css.map */
