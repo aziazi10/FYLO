@@ -75,57 +75,13 @@
         }
 
         &__logo {
-            margin-bottom: 33px;
-            margin-left: 9px;
-        }
-    
-        &__text {
-            display: flex;
-        }
-    
-        &__place {
-            display: block;
-            margin-right: 27px;
-            margin-top: 6.5px;
+            width: 176px;
+            height: 52px;
         }
     
         &__paragraph {
             width: 340px;
             height: 72px;
-        }
-    
-        &__item {
-            display: flex;
-            margin-bottom: 19px;
-        }
-    
-        &__icon {
-            display: block;
-            margin-right: 22px;
-            margin-top: 6.5px;
-        }
-    
-        &__tel {
-            text-decoration: none;
-            color: white;
-        }
-    
-        &__email {
-            text-decoration: none;
-            color: white;
-        }
-    
-        &__lists {
-            list-style-type: none;
-            margin-bottom: 48px;
-        }
-    
-        &__link {
-            color: white;
-            text-decoration: none;
-            font-family: OpenSans;
-            font-size: 16px;
-            line-height: 19px;
         }
         
         &__links {
