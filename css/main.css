@@ -463,7 +463,8 @@ body {
             justify-content: space-between;
   }
   .team__box {
-    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 30px 25px 76px 25px;
     width: 360px;
     height: 200px;
